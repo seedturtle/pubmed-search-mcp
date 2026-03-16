@@ -978,3 +978,4 @@ Apache License 2.0 - see [LICENSE](LICENSE)
 - [GitHub Repository](https://github.com/u9401066/pubmed-search-mcp)
 - [PyPI Package](https://pypi.org/project/pubmed-search/)
 - [NCBI Entrez Programming Utilities](https://www.ncbi.nlm.nih.gov/books/NBK25497/)
+# Force update
