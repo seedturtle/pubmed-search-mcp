@@ -16,16 +16,12 @@ COPY run_server.py ./
 RUN pip install --no-cache-dir -e ".[mcp]"
 
 # Default environment variables
-ENV NCBI_EMAIL=pubmed-search@example.com
-ENV MCP_PORT=8765
+ENV NCBI_EMAIL=agenthung849@gmail.com
+ENV MCP_PORT=8080
 ENV MCP_HOST=0.0.0.0
 
 # Expose port
-EXPOSE 8765
-
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8765/ || exit 1
+EXPOSE 8080
 
 # Run the server
-CMD ["python", "run_server.py", "--transport", "sse"]
+CMD ["python", "run_server.py", "--transport", "sse", "--port", "8080"]
