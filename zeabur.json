@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schema.zeabur.app/template.json",
+  "name": "PubMed Search MCP",
+  "description": "Professional MCP server for biomedical literature research",
+  "icon": "https://pubmed.ncbi.nlm.nih.gov/favicon.ico",
+  "tags": ["MCP", "PubMed", "Research"],
+  "environments": {
+    "NCBI_EMAIL": "agenthung849@gmail.com"
+  }
+}
